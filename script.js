@@ -24,7 +24,7 @@ var clockInterval;
 function init() {
     img = new Image();
     img.addEventListener('load', onImage, false);
-    img.src = "code1.png";
+    img.src = "mcymlogo.png";
 }
 
 function onImage(e) {
