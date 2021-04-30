@@ -24,7 +24,7 @@ var clockInterval;
 function init() {
     img = new Image();
     img.addEventListener('load', onImage, false);
-    img.src = "B1A4m2aH_4x.jpeg";
+    img.src = "logo.png";
 }
 
 function onImage(e) {
