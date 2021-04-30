@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ukladanka</title>
+    <style media="screen">
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        position: relative;
+        height: 90vh;
+        background-color: #333;
+        z-index: -10;
+        padding: 0 10px;
+      }
+      #ukladanka{
+        z-index: 1 !important;
+      }
+      #guideImage{
+        z-index: 0 !important;
+        position: absolute;
+      }
+      #puzzleTimer{
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        user-select: none;
+      }
+    </style>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </head>
+
+  <body onload="init();">
+    <div id="puzzleTimer"></div>
+    <canvas id="guideImage"></canvas>
+    <canvas id="ukladanka">
+      Twoja przeglądarka nie wspiera tej treści
+    </canvas>
+  </body>
+</html>
